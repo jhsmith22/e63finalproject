@@ -2,7 +2,14 @@
 Author: Jessica Stockham
 
 # e63finalproject
-Final Project for Harvard Extension School e-63 Big Data Analytics. Used pySpark, mySQL, and Apache Airflow to create a data pipeline with data from the openGSA API. This is primarily a demonstration of Apache Airflow.
+This is a my final project for Harvard Extension School e-63 Big Data Analytics. I used pySpark, mySQL, python and Apache Airflow to create a data pipeline with data from the openGSA API. This is primarily a demonstration of Apache Airflow.
+
+## Repository Organization
+The code diretory contains all the python scripts. The visualization directory has the html viz created on May 8, 2023. The reports directory contains a full report detailing a full tutorial on how to run this code, a one-page abstract, slides summarizing the project.
+
+## You Tube Video Links
+YouTube 2-minute video: https://youtu.be/AYaaRbIt7I4
+YouTube 15-minute video: https://youtu.be/CKeJR5OuxSQ
 
 ## Problem Statement: 
 Explore which federal government agencies have the highest web traffic and which have low traffic and how this varies over time. The federal government provides a vast array of services and information to the American people through its websites. Websites that have little traffic may be poorly designed or not well-publicized. When websites have very high traffic, this may imply that the government must be prepared with resources to meet the high demand for both web traffic and downstream service delivery. In this project, I build a data pipeline, ingesting data in batches from an API weekly, transforming the data with Spark, storing the data in a mySQL database, and visualizing the output with python’s altair package. I orchestrate the workflow with Apache Airflow. 
