@@ -15,12 +15,12 @@ a.	Task 1: Extract the latest website visits data
 b.	Task 2: Transform and store the data so it is ready for analysis.
 c.	Task 3: Load transformed data into mysql into python. Visualize using the python altair package. 
 
-## Big Dataset Source: analytics.usa.gov API
-
+## Data Source and Hardware/Software
+Dataset Source: analytics.usa.gov API
 Hardware: MacOS Monterey Version 12, M1 chip, 16GB
 Software: Python 3.9, Spark 3.3.1, Apache Airflow 2.6.0
 
-# Code Files
+## Code Files
 
 1. constants.py
 The constants.py script gets everything setup. It (1) imports python packages I will need (2) defines variables I use as parameters in my api pulls, and (3) prepares Spark to store the data. I import the python packages: requests, json, pandas, pyspark, and datetime.  For my api parameters, I import my api key that resides in a text file (key.txt), generate of agencies for which I will request reports, define the api url, and also specify the start and end dates (today’s date and the “pull after” date). Notably, the date parameters are updated for each api batch request. I use the datetime python module to calculate today’s date and the date 7 days prior. This code also defines my Spark session object, tests that Spark is working, and defines a schema for my Spark dataframe that will hold the data. 
