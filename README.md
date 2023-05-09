@@ -85,6 +85,6 @@ I set the order of the three tasks with the last statement with the >> statement
 
 
 ## Known Bugs
-None at this time.
+The visualization code that updates the chart title with the latest batch pull date will need to be updated in 2024.
 
 
