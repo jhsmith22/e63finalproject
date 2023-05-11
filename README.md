@@ -23,9 +23,9 @@ b.	Task 2: Transform and store the data so it is ready for analysis.
 c.	Task 3: Load transformed data into mysql into python. Visualize using the python altair package. 
 
 ## Data Source and Hardware/Software
-Dataset Source: analytics.usa.gov API
-Hardware: MacOS Monterey Version 12, M1 chip, 16GB
-Software: Python 3.9, Spark 3.3.1, Apache Airflow 2.6.0
+* Dataset Source: analytics.usa.gov API
+* Hardware: MacOS Monterey Version 12, M1 chip, 16GB
+* Software: Python 3.9, Spark 3.3.1, Apache Airflow 2.6.0
 
 ## Code Files
 
