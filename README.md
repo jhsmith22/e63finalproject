@@ -1,7 +1,7 @@
 5/9/2023
 Author: Jessica Stockham
 
-# e63finalproject
+# Data Pipeline in Spark with Airflow
 This is a my final project for Harvard Extension School e-63 Big Data Analytics. I used pySpark, mySQL, python and Apache Airflow to create a data pipeline with data from the openGSA API. This is primarily a demonstration of Apache Airflow.
 
 ## Repository Organization
